@@ -1,0 +1,5 @@
+Como você pode ver, o operador or verifica o primeiro operando. Se isso for verdadeiro ou verdade, ele o retorna imediatamente (e é por isso que recebemos 'palavra'
+no primeiro caso e verdadeiro no segundo caso). Se não for verdadeiro ou verdade, ele retorna o segundo operando (e é por isso que obtemos 'palavra' no terceiro caso).
+
+Com o operador and funciona de forma similar, mas para que 'and' seja verdade, ambos os operandos precisam ser verdades. Assim, ele sempre retornará o segundo operando
+se ambos forem verdadeiros/verdade. Caso contrário, retornará false. É por isso que, no quarto caso, temos true e, no último caso, temos 'palavra'.
