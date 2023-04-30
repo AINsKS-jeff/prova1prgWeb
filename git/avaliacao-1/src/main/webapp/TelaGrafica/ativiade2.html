@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Matriculas</title>
+</head>
+<body>
+	<h1>Escola Virtual</h1>
+	<h3>Formulario de Pré-Matricula</h2>
+	
+	<form>
+	<fieldset>
+	<legend>Dados Pessoais</legend>
+	<table>
+	<tr><td>Nome Do Aluno: </td><td><input type="text" name="Nome"></td></tr><p>
+	<tr><td>Nascimento(dd/mm/aaaa) </td><td><input type="date" name="dia"></td></tr><p>
+	<tr><td>Nome Da Mãe: </td><td><input type="text" name="Nome"></td></tr><p>
+	<tr><td>Nome Do Pai: </td><td><input type="text" name="Nome"></td></tr><p>
+	<tr><td> telefone: DDD</td><td>(<input type="tel" name="ddd">) tel<input type="tel" name="tel"> Ramal<input type="text" name="ramal"></td></tr><p>
+	<tr><td>E-mail:</td><td><input type="email" name="email"></td></tr><p>
+	</table>
+	</fieldset>
+	<fieldset>
+	<legend>Informações de Matricula:</legend>
+	<table>
+	<tr><td>Serie:</td><td>Turno</dt><td>Atividade Extracurriculares</td></tr>
+	<tr><td><select>
+	<option>Pré-escola</option>
+	<option>escola 1-5 ano</option>
+	<option>Pré-escola 6 - 9</option>
+	<option>Ensino medio</option>
+	</select></td>
+	<td><input type="radio" name="turno" value="Manhã">manhã<br>
+	<input type="radio" name="turno" value="tarde">tarde</td>
+	<td><input type="checkbox" name="atv" value="Informatica">Informatica<br>
+	<input type="checkbox" name="atv" value="Música">Músca<br>
+	<input type="checkbox" name="atv" value="Balet">balet<br>
+	<input type="checkbox" name="atv" value="Pintura">Pintura<br>
+	<input type="checkbox" name="atv" value="Judô">Judô<br>
+	<input type="checkbox" name="atv" value="Futebol">Futebol<br> </td>
+	</tr>
+	</table>
+	</fieldset>
+	
+	<input type="submit" value="Enviar Formulario">
+	<input type="submit" value="Limpar Formulario">
+	</form>
+	
+</body>
+</html>
